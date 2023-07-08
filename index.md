@@ -1,12 +1,28 @@
-# Adaptics Designer
-Adaptics Designer offers a user-friendly interface for creating dynamic mid-air haptic patterns. Feel free to try it online or explore the source code.
+# [Adaptics Designer](https://github.com/AdaptiveHaptics/AdapticsDesigner)
+
+Adaptics Designer offers a user-friendly interface for creating dynamic mid-air haptic patterns. Try it online or explore the source code:
 
 - [Try Online](https://adaptivehaptics.github.io/AdapticsDesigner/)
-- [Source Repository](https://github.com/AdaptiveHaptics/AdapticsDesigner/)
+- [Source Repository](https://github.com/AdaptiveHaptics/AdapticsDesigner)
 
-# Adaptics Engine
-Adaptics Engine, our core technology, is built using Rust. It is designed to be device agnostic, but currently targets [Ultrahaptics devices](https://www.ultraleap.com/datasheets/STRATOS_Explore_Development_Kit_datasheet.pdf).
-The engine offers a Command Line Interface (CLI), a C-compatible API, and C# bindings to facilitate playback of adaptive haptic patterns. Please note that the latest releases are available only for Windows at this time.
 
-- [Get Latest Release for Windows (CLI, DLL with C-compatible API, C# Bindings)](https://github.com/AdaptiveHaptics/AdapticsEngine/releases/latest)
+
+# [Adaptics Engine](https://github.com/AdaptiveHaptics/AdapticsEngine)
+
+Adaptics Engine repository comprises two packages: `adaptics-engine` and `adaptics-pattern-evaluator`.
+
+`adaptics-engine` offers a Command Line Interface (CLI) that runs a websocket server for real-time pattern playback from the Designer, supplemented with a C-compatible API and C# bindings. It is designed to be hardware agnostic, but currently targets [Ultraleap haptics devices](https://www.ultraleap.com/datasheets/STRATOS_Explore_Development_Kit_datasheet.pdf).
+
+`adaptics-pattern-evaluator` facilitates the low-level evaluation of Adaptics patterns, and is incorporated into both the `adaptics-engine` and the Designer.
+
+- [Installation Instructions](https://github.com/AdaptiveHaptics/AdapticsEngine#installation)
 - [Source Repository](https://github.com/AdaptiveHaptics/AdapticsEngine)
+
+
+
+# [Adaptics Engine Unity](https://github.com/AdaptiveHaptics/AdapticsEngineUnity)
+
+Offering higher-level support for playback in Unity.
+
+- [Get Latest Release](https://github.com/AdaptiveHaptics/AdapticsEngineUnity/releases/latest)
+- [Source Repository](https://github.com/AdaptiveHaptics/AdapticsEngineUnity)
